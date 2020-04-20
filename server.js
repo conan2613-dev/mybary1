@@ -3,11 +3,12 @@ const expressLayout = require('express-ejs-layouts');
 const indexRouter = require('./routes/index')
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+require('dotenv/config');
 
 const authorRouter = require('./routes/authors')
 
 //MLABS MONGO DB
-mongoose.connect('mongodb+srv://sagar:sagar12345@myfirstmongodb-tldsv.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 

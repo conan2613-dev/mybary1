@@ -1,0 +1,55 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm": {
+    "isCaseSensitive": false,
+    "store": "C:\\Users\\sagar\\.pnpm-store\\2"
+  },
+  "2 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "fullStackWebProject",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "start": "nodemon server.js"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+        "body-parser": "^1.19.0",
+        "ejs": "^3.0.2",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.0",
+        "mongoose": "^5.9.9",
+        "nodemon": "^2.0.3"
+      }
+    },
+    "prefix": "C:\\WEBPROJECTS\\Javascript packages and projects\\fullStackWebProject"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\WEBPROJECTS\\Javascript packages and projects\\fullStackWebProject",
+    "stage": "resolution_started"
+  },
+  "4 warn pnpm": {
+    "message": "Moving ejs that was installed by a different package manager to \"node_modules/.ignored",
+    "prefix": "C:\\WEBPROJECTS\\Javascript packages and projects\\fullStackWebProject"
+  },
+  "5 error pnpm": {
+    "message": {
+      "errno": -4048,
+      "code": "EPERM",
+      "syscall": "rename",
+      "path": "C:\\WEBPROJECTS\\Javascript packages and projects\\fullStackWebProject\\node_modules\\ejs",
+      "dest": "C:\\WEBPROJECTS\\Javascript packages and projects\\fullStackWebProject\\node_modules\\.ignored\\ejs"
+    },
+    "err": {
+      "name": "Error",
+      "message": "EPERM: operation not permitted, rename 'C:\\WEBPROJECTS\\Javascript packages and projects\\fullStackWebProject\\node_modules\\ejs' -> 'C:\\WEBPROJECTS\\Javascript packages and projects\\fullStackWebProject\\node_modules\\.ignored\\ejs'",
+      "code": "EPERM",
+      "stack": "Error: EPERM: operation not permitted, rename 'C:\\WEBPROJECTS\\Javascript packages and projects\\fullStackWebProject\\node_modules\\ejs' -> 'C:\\WEBPROJECTS\\Javascript packages and projects\\fullStackWebProject\\node_modules\\.ignored\\ejs'"
+    }
+  }
+}
